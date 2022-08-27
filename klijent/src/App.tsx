@@ -15,7 +15,7 @@ import { Author, Book, Review, Topic, User } from './tipovi';
 import { SERVER } from './util';
 axios.defaults.withCredentials = true;
 
-function App() {
+function App() { 
   const [user, setUser] = useState<User | undefined>(undefined);
   const [fetching, setFetching] = useState(true);
   const [books, setBooks] = useState<Book[]>([])
