@@ -22,7 +22,7 @@ const upload = uplaodMiddleware.fields([
     {
         name: 'file',
         maxCount: 1
-    } 
+    }
 ])
 export const Routes: Route[] = [
     {

@@ -21,7 +21,7 @@ createConnection().then(async connection => {
         methods: ['GET', 'POST', 'PATCH', 'DELETE'],
         origin: 'http://localhost:3000'
 
-    }));  
+    }));
     app.use(express.json());
     app.use(session({
         secret: 'adsfgdhtydadsfadfsafsjtiuyi',
