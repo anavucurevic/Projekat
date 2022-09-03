@@ -10,7 +10,7 @@ export async function getAllBooks(req: Request, res: Response) {
     const books = await getRepository(Book).find();
     res.json(books);
 
-}
+} 
 
 export async function createBook(req: Request, res: Response) {
     const data = req.body

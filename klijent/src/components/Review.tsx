@@ -18,7 +18,7 @@ export default function Review(props: Props) {
                     </Comment.Metadata>
                     <Comment.Text>
                         {props.review.content}
-                    </Comment.Text>
+                    </Comment.Text> 
 
                 </Comment.Content>
             </Comment>

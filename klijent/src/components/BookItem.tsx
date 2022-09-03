@@ -11,7 +11,7 @@ interface Props {
 export default withRouter(function BookItem(props: Props & RouteComponentProps) {
     return (
         <Card centered fluid link onClick={() => {
-            props.history.push('/books/' + props.book.id)
+            props.history.push('/books/' + props.book.id) 
         }}>
             <Image className='short' src={`${SERVER}/uploads/${props.book.image}`} wrapped ui={false} />
             <Card.Content  >
