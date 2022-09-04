@@ -14,6 +14,7 @@ interface Props {
     deleteBook: (id: number) => void
 
 }
+
 export default function Dashboard(props: Props) {
     const [selectedBook, setSelectedBook] = useState<Book | undefined>(undefined)
     const [title, setTitle] = useState('');

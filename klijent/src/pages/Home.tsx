@@ -13,7 +13,7 @@ export default function Home(props: Props) {
         <Container>
             <Segment>
                 <Header textAlign='center'>
-                    Biblioteka "Laza Kostic"
+                    Biblioteka "Laza Kostić"
                 </Header>
                 <Header textAlign='center'>
                     <h2>Pogledajte sirok asortiman knjiga koje nudimo</h2>

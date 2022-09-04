@@ -11,6 +11,7 @@ interface Props {
     setUser: (user: User) => void
 }
 
+
 export default function Register(props: Props) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
